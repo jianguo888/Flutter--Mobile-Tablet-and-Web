@@ -11,7 +11,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override

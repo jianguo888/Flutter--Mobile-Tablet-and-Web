@@ -7,15 +7,15 @@ import '../../../extensions.dart';
 
 class EmailCard extends StatelessWidget {
   const EmailCard({
-    Key key,
+    Key? key,
     this.isActive = true,
     this.email,
     this.press,
   }) : super(key: key);
 
   final bool isActive;
-  final Email email;
-  final VoidCallback press;
+  final Email? email;
+  final VoidCallback? press;
 
   @override
   Widget build(BuildContext context) {
@@ -41,14 +41,14 @@ class EmailCard extends StatelessWidget {
                         width: 32,
                         child: CircleAvatar(
                           backgroundColor: Colors.transparent,
-                          backgroundImage: AssetImage(email.image),
+                          backgroundImage: AssetImage(email!.image!),
                         ),
                       ),
                       SizedBox(width: kDefaultPadding / 2),
                       Expanded(
                         child: Text.rich(
                           TextSpan(
-                            text: "${email.name} \n",
+                            text: "${email!.name} \n",
                             style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.w500,
@@ -56,10 +56,10 @@ class EmailCard extends StatelessWidget {
                             ),
                             children: [
                               TextSpan(
-                                text: email.subject,
+                                text: email!.subject,
                                 style: Theme.of(context)
                                     .textTheme
-                                    .bodyText2
+                                    .bodyText2!
                                     .copyWith(
                                       color:
                                           isActive ? Colors.white : kTextColor,
@@ -72,13 +72,13 @@ class EmailCard extends StatelessWidget {
                       Column(
                         children: [
                           Text(
-                            email.time,
-                            style: Theme.of(context).textTheme.caption.copyWith(
+                            email!.time!,
+                            style: Theme.of(context).textTheme.caption!.copyWith(
                                   color: isActive ? Colors.white70 : null,
                                 ),
                           ),
                           SizedBox(height: 5),
-                          if (email.isAttachmentAvailable)
+                          if (email!.isAttachmentAvailable!)
                             WebsafeSvg.asset(
                               "assets/Icons/Paperclip.svg",
                               color: isActive ? Colors.white70 : kGrayColor,
@@ -89,10 +89,10 @@ class EmailCard extends StatelessWidget {
                   ),
                   SizedBox(height: kDefaultPadding / 2),
                   Text(
-                    email.body,
+                    email!.body!,
                     maxLines: 2,
                     overflow: TextOverflow.ellipsis,
-                    style: Theme.of(context).textTheme.caption.copyWith(
+                    style: Theme.of(context).textTheme.caption!.copyWith(
                           height: 1.5,
                           color: isActive ? Colors.white70 : null,
                         ),
@@ -106,7 +106,7 @@ class EmailCard extends StatelessWidget {
               topShadowColor: Colors.white60,
               bottomShadowColor: Color(0xFF234395).withOpacity(0.15),
             ),
-            if (!email.isChecked)
+            if (!email!.isChecked!)
               Positioned(
                 right: 8,
                 top: 8,
@@ -123,14 +123,14 @@ class EmailCard extends StatelessWidget {
                   offset: Offset(2, 2),
                 ),
               ),
-            if (email.tagColor != null)
+            if (email!.tagColor != null)
               Positioned(
                 left: 8,
                 top: 0,
                 child: WebsafeSvg.asset(
                   "assets/Icons/Markup filled.svg",
                   height: 18,
-                  color: email.tagColor,
+                  color: email!.tagColor,
                 ),
               )
           ],

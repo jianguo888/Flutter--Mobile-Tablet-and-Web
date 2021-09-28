@@ -13,7 +13,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 class ListOfEmails extends StatefulWidget {
   // Press "Command + ."
   const ListOfEmails({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -49,7 +49,7 @@ class _ListOfEmailsState extends State<ListOfEmails> {
                       IconButton(
                         icon: Icon(Icons.menu),
                         onPressed: () {
-                          _scaffoldKey.currentState.openDrawer();
+                          _scaffoldKey.currentState!.openDrawer();
                         },
                       ),
                     if (!Responsive.isDesktop(context)) SizedBox(width: 5),

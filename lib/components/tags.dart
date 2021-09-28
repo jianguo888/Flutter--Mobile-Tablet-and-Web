@@ -5,7 +5,7 @@ import '../constants.dart';
 
 class Tags extends StatelessWidget {
   const Tags({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -22,7 +22,7 @@ class Tags extends StatelessWidget {
               "Tags",
               style: Theme.of(context)
                   .textTheme
-                  .button
+                  .button!
                   .copyWith(color: kGrayColor),
             ),
             Spacer(),
@@ -48,7 +48,7 @@ class Tags extends StatelessWidget {
   }
 
   InkWell buildTag(BuildContext context,
-      {@required Color color, @required String title}) {
+      {required Color color, required String title}) {
     return InkWell(
       onTap: () {},
       child: Padding(
@@ -65,7 +65,7 @@ class Tags extends StatelessWidget {
               title,
               style: Theme.of(context)
                   .textTheme
-                  .button
+                  .button!
                   .copyWith(color: kGrayColor),
             ),
           ],

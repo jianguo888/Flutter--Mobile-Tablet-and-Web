@@ -8,11 +8,11 @@ import 'components/header.dart';
 
 class EmailScreen extends StatelessWidget {
   const EmailScreen({
-    Key key,
+    Key? key,
     this.email,
   }) : super(key: key);
 
-  final Email email;
+  final Email? email;
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +33,7 @@ class EmailScreen extends StatelessWidget {
                       CircleAvatar(
                         maxRadius: 24,
                         backgroundColor: Colors.transparent,
-                        backgroundImage: AssetImage(emails[1].image),
+                        backgroundImage: AssetImage(emails[1].image!),
                       ),
                       SizedBox(width: kDefaultPadding),
                       Expanded(
