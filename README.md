@@ -1,3 +1,5 @@
+
+
 # Flutter Web项目
 
 Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持 Web、macOS、Android 和 iOS。 这就是为什么今天我们使用在 Web、macOS 应用、Android 和 iOS 应用上运行的 flutter 创建响应式博客主题。 此外，我们创建了一个具有自定义悬停动画的动画网络菜单。 最后，您将学习如何使用 Flutter 制作响应式应用程序。
@@ -9,6 +11,10 @@ Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持
 ![](https://luckly007.oss-cn-beijing.aliyuncs.com/image/gif.gif)
 
 ![ui](https://luckly007.oss-cn-beijing.aliyuncs.com/image/ui.png)
+
+更多代码细节见我公众号
+
+![](https://luckly007.oss-cn-beijing.aliyuncs.com/image/qrcod.jpg)
 
 哔哩哔哩
 
