@@ -1,8 +1,10 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:outlook/constants.dart';
 import 'package:outlook/screens/main/main_screen.dart';
 
 void main() {
+  debugDefaultTargetPlatformOverride = TargetPlatform.fuchsia;//这句话很关键
   runApp(MyApp());
 }
 
