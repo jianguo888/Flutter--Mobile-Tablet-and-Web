@@ -8,6 +8,10 @@ Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持
 
 预览地址：http://47.117.1.68:252/#/
 
+如果预览地址打不开可以安装可执行文件来玩
+
+![image-20210928171556688](https://luckly007.oss-cn-beijing.aliyuncs.com/image/image-20210928171556688.png)
+
 ![](https://luckly007.oss-cn-beijing.aliyuncs.com/image/gif.gif)
 
 ![ui](https://luckly007.oss-cn-beijing.aliyuncs.com/image/ui.png)
