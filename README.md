@@ -4,7 +4,25 @@ Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持
 
 目前已新增桌面支持
 
-预览地址
+预览地址：http://47.117.1.68:251/#/
+
+![](https://luckly007.oss-cn-beijing.aliyuncs.com/image/gif.gif)
+
+![ui](https://luckly007.oss-cn-beijing.aliyuncs.com/image/ui.png)
+
+哔哩哔哩
+
+https://www.bilibili.com/video/BV1oA411T7nD?spm_id_from=333.999.0.0
+
+项目地址
+
+github
+
+https://github.com/ITmxs/Flutter--Mobile-Tablet-and-Web
+
+gitee
+
+https://gitee.com/itmxs/Flutter--Mobile-Tablet-and-Web/
 
 
 
@@ -30,23 +48,6 @@ Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持
 
 目前已新增桌面支持
 
-预览地址：http://47.117.1.68:251/#/
-
-![](https://luckly007.oss-cn-beijing.aliyuncs.com/image/gif.gif)
-
-![ui](https://luckly007.oss-cn-beijing.aliyuncs.com/image/ui.png)
-
-
-
-项目地址
-
-github
-
-https://github.com/ITmxs/Flutter--Mobile-Tablet-and-Web
-
-gitee
-
-https://gitee.com/itmxs/Flutter--Mobile-Tablet-and-Web/
 
 主分支默认空安全
 
