@@ -1,19 +1,20 @@
 # Outlook Email App Redesign - Flutter Fully Responsive Design UI
 
-## [Watch it on YouTube](https://youtu.be/0mp-Ok00WZE)
+Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持 Web、macOS、Android 和 iOS。 这就是为什么今天我们使用在 Web、macOS 应用、Android 和 iOS 应用上运行的 flutter 创建响应式博客主题。 此外，我们创建了一个具有自定义悬停动画的动画网络菜单。 最后，您将学习如何使用 Flutter 制作响应式应用程序。
+
+目前已新增桌面支持
+
+预览地址
 
 
- ### Flutter web work on beta make sure you change your channel, [Configure the flutter tool for web support](https://flutter.dev/docs/get-started/web)
 
-**Packages we are using:**
-
-- websafe_svg: [link](https://pub.dev/packages/websafe_svg)
-- flutter_staggered_grid_view: [link](https://pub.dev/packages/flutter_staggered_grid_view)
-
-We redesign the outlook app also make it responsive so that you can run it everywhere on your phone, tab, or web. In this flutter responsive video, we will show you the real power of flutter. Make mobile, web, and desktop app from a single codebase.
+![image-20210928125407795](https://luckly007.oss-cn-beijing.aliyuncs.com/image/image-20210928125407795.png)
 
 ### Outlook Email App Redesign Responsive Final UI
 
 ![Preview](/gif.gif)
 
 ![App UI](/ui.png)
+
+
+
