@@ -6,7 +6,7 @@ Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持
 
 目前已新增桌面支持
 
-预览地址：http://47.117.1.68:251/#/
+预览地址：http://47.117.1.68:252/#/
 
 ![](https://luckly007.oss-cn-beijing.aliyuncs.com/image/gif.gif)
 
@@ -576,3 +576,21 @@ hover run
 
 
 ![image-20210928090948605](https://luckly007.oss-cn-beijing.aliyuncs.com/image/image-20210928090948605.png)
+
+flutter web 其他系列
+
+
+
+
+
+# flutter web 静态网页系列1
+
+https://www.bilibili.com/video/BV1PQ4y1C7cU?spm_id_from=333.999.0.0
+
+# flutter web 静态网页系列2
+
+https://www.bilibili.com/video/BV1hR4y1p7ea?spm_id_from=333.999.0.0
+
+# flutter web 静态网页系列3
+
+https://www.bilibili.com/video/BV1oQ4y1k7sD?spm_id_from=333.999.0.0
