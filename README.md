@@ -40,11 +40,11 @@ Flutter 最近发布了 Flutter V2.5.1，其性能得到了很大提升，支持
 
 github
 
-https://github.com/ITmxs/flutter_bloc_super
+https://github.com/ITmxs/Flutter-responsive-email-ui---Mobile-Tablet-and-Web
 
 gitee
 
-https://gitee.com/itmxs/flutter_bloc_super
+https://gitee.com/itmxs/flutter-responsive-email-ui---mobile-tablet-and-web
 
 主分支默认空安全
 
